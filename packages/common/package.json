@@ -1,0 +1,20 @@
+{
+  "name": "@some-react-components/common",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "g.valeev <g.valeev@xsolla.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "source": "src/index.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}

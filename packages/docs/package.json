@@ -1,0 +1,17 @@
+{
+  "name": "@some-react-components/docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "dev": "parcel src/public/index.html"
+  },
+  "dependencies": {
+    "@some-react-components/ui": "0.0.1",
+    "@some-react-components/common": "0.0.1"
+  }
+}
