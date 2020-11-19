@@ -1,11 +1,14 @@
 {
   "name": "some-react-components",
+  "license": "MIT",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "docs:dev": "yarn workspace @some-react-components/docs dev"
+    "docs:dev": "yarn workspace @some-react-components/docs dev",
+    "build": "gulp build",
+    "publish": "yarn build && yarn workspaces run publish"
   },
   "devDependencies": {
     "@types/gulp": "^4.0.7",
@@ -13,6 +16,7 @@
     "@types/react-dom": "^16.9.9",
     "@types/react-router-dom": "^5.1.6",
     "@types/styled-components": "^5.1.4",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-typescript": "^6.0.0-alpha.1",
     "lerna": "^3.22.1",
