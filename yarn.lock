@@ -1843,6 +1843,13 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
+"@some-react-components/common@0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@some-react-components/common/-/common-0.0.1.tgz#de3d942843100908ab73ba018ebcf6c4eecf904f"
+  integrity sha512-56j08WRgDhykgodk9Wz37hVq0B5d9Nur9dHauBeQBTe059cSur5YXzCixoUxJPECInBCMB59qmxrOWUpJJbKSg==
+  dependencies:
+    axios "^0.21.0"
+
 "@types/expect@^1.20.4":
   version "1.20.4"
   resolved "https://registry.yarnpkg.com/@types/expect/-/expect-1.20.4.tgz#8288e51737bf7e3ab5d7c77bfa695883745264e5"

@@ -27,13 +27,16 @@ const clean = () => {
   ]);
 };
 
-const buildCommon = series(
-  buildPackage(packages.common),
-  copyPackage(packages.common),
-);
 const buildCrm = series(
+  () => del(path.resolve(__dirname, packages.crm, 'dist')),
   buildPackage(packages.crm),
   copyPackage(packages.crm),
+  )
+;
+const buildCommon = series(
+  () => del(path.resolve(__dirname, packages.common, 'dist')),
+  buildPackage(packages.common),
+  copyPackage(packages.common),
 );
 
 exports.crm = buildCrm;

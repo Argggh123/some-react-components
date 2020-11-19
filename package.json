@@ -8,7 +8,9 @@
   "scripts": {
     "docs:dev": "yarn workspace @some-react-components/docs dev",
     "build": "gulp build",
-    "publish": "yarn build && yarn workspaces run publish"
+    "publish:common": "gulp common && yarn workspace @some-react-components/common release",
+    "publish:ui": "gulp crm && yarn workspace @some-react-components/ui publish",
+    "publish": "yarn publish:common && yarn publish:ui"
   },
   "devDependencies": {
     "@types/gulp": "^4.0.7",

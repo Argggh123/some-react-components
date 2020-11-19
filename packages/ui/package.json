@@ -11,7 +11,7 @@
     "publish": "yarn publish ./dist --access public"
   },
   "dependencies": {
-    "@some-react-components/common": "^0.0.3",
+    "@some-react-components/common": "^0.0.5",
     "styled-components": "^5.2.1"
   },
   "peerDependencies": {
