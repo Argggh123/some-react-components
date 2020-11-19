@@ -24,8 +24,7 @@
     "jsx": "react",
     "types": [
       "react",
-      "styled-components",
-      "jest"
+      "styled-components"
     ]
   },
   "include": [

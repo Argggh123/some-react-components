@@ -3,13 +3,15 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
-  "private": true,
   "source": "src/index.ts",
   "files": [
     "src"
   ],
+  "scripts": {
+    "publish": "yarn publish ./dist --access public"
+  },
   "dependencies": {
-    "@some-react-components/common": "^0.0.1",
+    "@some-react-components/common": "^0.0.2",
     "styled-components": "^5.2.1"
   },
   "peerDependencies": {
