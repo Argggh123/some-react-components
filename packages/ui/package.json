@@ -1,14 +1,17 @@
 {
   "name": "@some-react-components/ui",
-  "version": "0.0.3",
-  "main": "index.js",
+  "version": "0.0.4",
+  "description": "> TODO: description",
+  "author": "g.valeev <g.valeev@xsolla.com>",
+  "homepage": "",
   "license": "MIT",
+  "main": "lib/index.js",
   "source": "src/index.ts",
-  "files": [
-    "src"
-  ],
+  "directories": {
+    "lib": "./lib"
+  },
   "scripts": {
-    "release": "yarn publish ./dist --access public"
+    "release": "yarn publish --access public"
   },
   "dependencies": {
     "@some-react-components/common": "^0.0.5",
