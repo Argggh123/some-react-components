@@ -1,6 +1,6 @@
 {
   "name": "@some-react-components/common",
-  "version": "0.0.7",
+  "version": "1.0.8",
   "description": "> TODO: description",
   "author": "g.valeev <g.valeev@xsolla.com>",
   "homepage": "",
@@ -11,7 +11,7 @@
     "src"
   ],
   "scripts": {
-    "release": "yarn publish ./dist --access public -f"
+    "release": "yarn publish dist --access public"
   },
   "dependencies": {
     "axios": "^0.21.0"
