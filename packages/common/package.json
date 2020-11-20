@@ -1,20 +1,17 @@
 {
   "name": "@some-react-components/common",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "> TODO: description",
   "author": "g.valeev <g.valeev@xsolla.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "source": "src/index.ts",
-  "files": [
-    "dist"
-  ],
   "directories": {
-    "lib": "./dist"
+    "lib": "./lib"
   },
   "scripts": {
-    "release": "yarn publish --access public --new-version 1.0.16"
+    "release": "yarn publish --access public"
   },
   "dependencies": {
     "axios": "^0.21.0"
