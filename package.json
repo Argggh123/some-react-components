@@ -8,9 +8,9 @@
   "scripts": {
     "docs:dev": "yarn workspace @some-react-components/docs dev",
     "build": "gulp build",
-    "publish:common": "gulp common && yarn workspace @some-react-components/common release",
-    "publish:ui": "gulp crm && yarn workspace @some-react-components/ui publish",
-    "publish": "yarn publish:common && yarn publish:ui"
+    "release:common": "gulp common && yarn workspace @some-react-components/common release --new-version 1.0.21",
+    "release:ui": "gulp crm && yarn workspace @some-react-components/ui release --new-version 0.0.5",
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "@types/gulp": "^4.0.7",

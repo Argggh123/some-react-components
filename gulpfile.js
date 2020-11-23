@@ -12,7 +12,7 @@ const copyPackage = (pathToPackage) => () =>
   src(path.resolve(__dirname, pathToPackage, 'package.json')).pipe(dest(path.resolve(
     __dirname,
     pathToPackage,
-    'dist',
+    'lib',
   )));
 
 const buildPackage = (projectFolder) => () => {

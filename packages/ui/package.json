@@ -7,8 +7,11 @@
   "license": "MIT",
   "main": "lib/index.js",
   "source": "src/index.ts",
+  "files": [
+    "dist"
+  ],
   "directories": {
-    "lib": "./lib"
+    "lib": "./dist"
   },
   "scripts": {
     "release": "yarn publish --access public"
