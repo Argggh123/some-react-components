@@ -1,6 +1,6 @@
 {
   "name": "@some-react-components/docs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "license": "MIT",
   "files": [
@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "@some-react-components/common": "^1.0.21",
-    "@some-react-components/ui": "^0.0.5"
+    "@some-react-components/ui": "^0.0.6"
   }
 }
